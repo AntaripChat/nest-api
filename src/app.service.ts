@@ -11,6 +11,6 @@ export class AppService {
   }
 
   createUswer(name: string): string {
-    return `User ${name} created successfully!`;
+    return `User ${name} created successfully! Hello ${name}`;
   }
 }
